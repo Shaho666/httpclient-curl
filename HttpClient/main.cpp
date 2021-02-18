@@ -1,4 +1,4 @@
-#include "include/HttpClient.h"
+#include "HttpClient.h"
 
 void progress_callback(void *userdata, double download_speed, double remaining_time, double progress_percentage)
 {
@@ -49,7 +49,7 @@ void progress_callback(void *userdata, double download_speed, double remaining_t
 
 int main()
 {	
-	HttpClient::getInstance()->HttpGet("http://speedtest.wdc01.softlayer.com/downloads/test10.zip", "test10.zip", NULL, NULL);
+	HttpClient::getInstance()->HttpGet("http://www.baidu.com", "baidu.com.html", NULL, NULL);
 
 	return 0;
 }

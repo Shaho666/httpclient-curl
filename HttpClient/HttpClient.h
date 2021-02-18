@@ -2,7 +2,7 @@
 #define __HTTPCLIENT_H__
 
 #include <iostream>
-#include "include/curl/curl.h"
+#include "curl/curl.h"
 
 #define Z_DEBUG
 
